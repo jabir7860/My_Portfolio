@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Jabir's Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html"><span><h1>Jabir.</h1></span></a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                
+                
+                <h1>Hello, My name is <br><span>Mohammad Jabir</span><br>I'm an Enthusiatic Aspiring Software Engineer.<br>Technical Content Writer at GFG.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Mee.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An Enthusiastic IT Student Who is Looking Forward for An Role of Software Engineer,To Apply & Develop My Skills & Knowledge in this Booming 
+                      IT World.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('technologies')">Technologies</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++</span><br></li>
+                            <li><span>Data Structures & Algorithms</span><br></li>
+                            <li><span>Python</span><br></li>
+                            <li><span>Java</span><br></li> 
+                            <li><span>Object Oriented Programming</span><br></li> 
+                            <li><span>DBMS-SQL</span><br></li> 
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                             <li><span>Java Script</span><br></li>
+                            <li><span>Web Development</span><br></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="technologies">
+                        <ul>
+                            <li><span>Familiar with Machine Learning</span><br></li>
+                            <li><span>Touch with ReactJS</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Present</span><br>B.tech in Information Technology from SRKR Engineering College Bhimavaram.</li>
+                            <li><span>2018-2020</span><br>Intermediate from Govt Jr College Rajamundry</li>
+                            <li><span>2018</span><br>SSC from Vidyadeep English Medium High School Nidadavole</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------certifications---------- -->
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="certifications-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Data Structures & Algorithms</h2>
+                    <p>Completed a online course DSA from GeeksForGeeks.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML5</h2>
+                    <p>HTML5 From Coursera.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list"> 
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> mdjabir9623@gmail.com</p>
+                    <p><i class="fas fa-location-dot"></i> Nidadavole,Andhra Pradesh,India</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91 6303570475</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/jabir7860"><i class="fab fa-github"></i></a>
+                        
+                        <a href="https://www.linkedin.com/in/mdjabir/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>  
+</body>
+
+</html>
